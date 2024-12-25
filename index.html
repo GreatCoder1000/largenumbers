@@ -9,7 +9,27 @@ layout: default
     <body>
         <h1>1.1 - Home</h1>
         <main id="main">
-            TODO
+            Hi! This is my large numbers site.<br>
+            Here I will post all kinds of large number things!<br>
+            <span onclick="copyToClipboard('https://greatcoder1000.github.io/largenumbers')" style="color:lightskyblue">Copy link to clipboard</span>
         </main>
     </body>
+    <script>
+        function copyToClipboard(text) {
+            // Create a temporary textarea element
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+        
+            // Select the text
+            textarea.select();
+            textarea.setSelectionRange(0, 99999); // For mobile devices
+        
+            // Copy the text to the clipboard
+            document.execCommand('copy');
+        
+            // Remove the temporary textarea element
+            document.body.removeChild(textarea);
+        }
+    </script>
 </html>
