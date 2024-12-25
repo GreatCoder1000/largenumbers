@@ -40,24 +40,18 @@
         {% endif %}
       </header>
       <div class="content-sidebar">
-        <section class="content">
-          {{ content }}
-        </section>
-        <aside class="sidebar">
-          <h2>Repository Info</h2>
-          <p><strong>Name:</strong> {{ site.github.repository_name }}</p>
-          <p><strong>Owner:</strong> <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-          <p><strong>Description:</strong> {{ site.description | default: site.github.project_tagline }}</p>
-          <p><strong>Stars:</strong> {{ site.github.stargazers_count }}</p>
-          <p><strong>Forks:</strong> {{ site.github.forks_count }}</p>
-        </aside>
-      </div>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+  <section class="content">
+    {{ content }}
+  </section>
+  <aside class="sidebar">
+    <h2>Repository Info</h2>
+    <p><strong>Name:</strong> {{ site.github.repository_name }}</p>
+    <p><strong>Owner:</strong> <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+    <p><strong>Description:</strong> {{ site.description | default: site.github.project_tagline }}</p>
+    <p><strong>Stars:</strong> {{ site.github.stargazers_count }}</p>
+    <p><strong>Forks:</strong> {{ site.github.forks_count }}</p>
+  </aside>
+        </div>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
