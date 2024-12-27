@@ -5,94 +5,116 @@ layout: default
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #f4f4f4;
+            }
+            h1 {
+                color: #333;
+            }
+            ol {
+                margin-left: 20px;
+            }
+            li {
+                margin-bottom: 10px;
+            }
+            blockquote {
+                margin: 20px;
+                padding: 10px;
+                background-color: #e9e9e9;
+                border-left: 5px solid #ccc;
+            }
+            p {
+                margin: 10px 0;
+            }
+            main {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+        </style>
     </head>
     <body>
         <h1>4.1.11 - The Hyper-Extended Large number list</h1>
         <main id="main">
             Here I will analyse the ad hoc continuation of ##xE^ by Sbiis Saibian.<br>
             <ol start="92">
-                <li>blasphemorgulus = E100{#,#,1,2}100, FGH: &phi;(1,0,0,0)</li>
+                <li>blasphemorgulus = E100&#123;#,#,1,2&#125;100, FGH: &phi;(1,0,0,0)</li>
             </ol>
             ...<br>
             <ol start="96">
-                <li>grangol-carta-blasphemorgulus = E100{#,#,1,2}100#100</li>
-                <li>greagol-carta-blasphemorgulus = E100{#,#,1,2}100#100#100</li>
+                <li>grangol-carta-blasphemorgulus = E100&#123;#,#,1,2&#125;100#100</li>
+                <li>greagol-carta-blasphemorgulus = E100&#123;#,#,1,2&#125;100#100#100</li>
                 ...<br>
-                <li>godgahlah-carta-blasphemorgulus = E100{#,#,1,2}100#^#100</li>
+                <li>godgahlah-carta-blasphemorgulus = E100&#123;#,#,1,2&#125;100#^#100</li>
             </ol>
             ...<br>
             <ol start="158">
-                <li>goliahblasphemorgulus = E100({#,#,1,2}){10}#100</li>
-                <li>golliblasphemorgulus = E100({#,#,1,2}){50}#100</li>
-                <li>godsgoblasphemorgulus = E100({#,#,1,2}){100}#100</li>
-                <li>ohmygosh-ohmygosh-ohmygoooblasphemorgulus = E100({#,#,1,2}){#{100}#}#100</li>
-                <li>blasphemorgublasphemorgulus = E100({#,#,1,2}){{#,99,1,2}}#100</li>
+                <li>goliahblasphemorgulus = E100&#123;#,#,1,2&#125;&#123;10&#125;#100</li>
+                <li>golliblasphemorgulus = E100&#123;#,#,1,2&#125;&#123;50&#125;#100</li>
+                <li>godsgoblasphemorgulus = E100&#123;#,#,1,2&#125;&#123;100&#125;#100</li>
+                <li>ohmygosh-ohmygosh-ohmygoooblasphemorgulus = E100&#123;#,#,1,2&#125;&#123;&#123;100&#125;#&#125;#100</li>
+                <li>blasphemorgublasphemorgulus = E100&#123;#,#,1,2&#125;&#123;&#123;#,99,1,2&#125;&#125;#100</li>
             </ol>
             New major impasse hit! Let's see what sbiis does......<br>
             <blockquote cite="https://sites.google.com/site/largenumbers/home/4-3/4-3-11-xec_numbers5">
                 <p>
-                    We have now more or less reached the limit of what follows naturally from #xE^. Although we can take many well defined paths, we have to define a main sequence. It's important to understand that this is a choice, and that as such that choice is not a simple consequence of the previously established principles. Rather it is the establishment of new principles. If we could continue by using already established principles then there would be no real choice in the matter. We would simply continue to apply the old principles, because what already works does not need to be revised. The existence of these break-points is something I have recognized in googology for a long time. They are the reason it is dangerous to extrapolate too far without making sure that the established principles really ensure well defined fundamental sequences. This is why we can't just jump to array-hyperions, dimensional-array-hyperions, tetrational-array-hyperions, etc. At first this may seem unnecessary. After all we can already define many fundamental sequences for some potential hyper-ordinals.
+                    We have now more or less reached the limit of what follows naturally from #xE^. Although we can take many well defined paths, we have to define a main sequence. It's important to u[...]
                 </p>
                 <p>
-                    What about all the intermediate sequences? Also how does one get from one milestone sequence to the next? Remember that we had already established the milestone sequences for xE^ in the Cascading-E article, a year before it was actually formalized. It was already a fairly obvious choice that #^^^#[n] should expand as #^^#^^#^^ ... ^^#^^# w/n #s. If you recall that didn't mean that we had defined E100#^^^#100 (now known as pentacthulhum), as eventually we would reach a non-elementary case such as #^^##. At the time it wasn't known what #^^## was, or what it's fundamental sequence should be. Neither was it known what hyper-ordinal had the fundamental sequence #^^#, (#^^#)^^#, ((#^^#)^^#)^^#, etc. It might have seemed reasonably to give #^^## this sequence as it would tie up the loose ends. However googology isn't just about creating fundamental sequences. We also want to make sure those sequences are elegant and powerful. There was also the added issue in this case that I wanted the sequences to mimic the way ordinals should work with hyper-operators. One could support the use of #^^##[n] = {#^^#,(#^^#)^^#,((#^^#)^^#)^^#, ... } via the fact that (m^^n)^^n ~ m^^(n+n). In other words nested tetrates add. Therefore it was reasonable to say ( ...((#^^#)^^#)^^# ...^^#)^^# = #^^(#+#+#+...+#+#) = #^^##. However the problem with this is we are dealing with ordinals not numbers, so it's not entirely clear that it should work this way. As it turned out this only amounts to #^^(#+1) via my theory of the climbing method. Not only did this have a stronger basis in ordinal arithmetic, but it also lead to a major boost in power.
+                    What about all the intermediate sequences? Also how does one get from one milestone sequence to the next? Remember that we had already established the milestone sequences for xE^ i[...]
                 </p>
                 <p>
-                      Now returning to our present problem ... a simple application of the principles established in Jonathan Bowers' array notation will not, I repeat, will not be sufficient to define an extension of #xE^ to arrays. So while we may be able to partially evaluate something like E100{#,#,2,2}100, it turns out that doesn't mean much. Eventually we reach an expression for which the next step is undefined. The result is that the initial expression is meaningless not that it's some number we don't quite understand. Granted, because numbers go on forever, there will be a variety of numbers which could be mapped to E100{#,#,2,2}100 using an appropriate set of rules, and granted we don't yet understand how any of those work, but that doesn't mean we get to say that E100{#,#,2,2}100 inherently has meaning on its own. How do we know which of the possible interpretations of E100{#,#,2,2}100 is the one which you mean? Without knowing this it becomes impossible to compare E100{#,#,2,2}100 to other values and the very practice of googology breaks down! Without the ability to determine which numbers are larger than others it becomes mostly an exercise in gibberish (something akin to pataphysics in which no idea, however ridiculous is ever really wrong. But an idea which can't even be wrong is next to being useless). What distinguishes googology from pseudo-numeric gibberish, such as saying a bazillion, infinitillion, and gothouzillionogol is that in contrast to these pseudo-numbers our names and expressions are given actual numeric value via the carefully established rules of evaluation. This lends them a mathematical reality. Without that we are just back to spouting gibberish and arguing a basically meaningless point of whose number is largest (hint: none of them are numbers so the argument is completely moot).
+                      Now returning to our present problem ... a simple application of the principles established in Jonathan Bowers' array notation will not, I repeat, will not be sufficient to defin[...]
                 </p>
             </blockquote>
             <ol start="164">
-                <li>blasphemormygosh-blasphemormygosh = E100({#,#,1,2}){{#,#,1,2}}({#,#,1,2})100</li>
-                <li>blasphemormygosh-blasphemormygosh-blasphemormygosh = E100({#,#,1,2}){({#,#,1,2}){{#,#,1,2}}({#,#,1,2})}({#,#,1,2})100</li>
+                <li>blasphemormygosh-blasphemormygosh = E100&#123;#,#,1,2&#125;&#123;&#123;#,#,1,2&#125;&#125;&#123;#,#,1,2&#125;100</li>
+                <li>blasphemormygosh-blasphemormygosh-blasphemormygosh = E100&#123;#,#,1,2&#125;&#123;(&#123;#,#,1,2&#125;&#125;&#123;#,#,1,2&#125;&#123;#,#,1,2&#125;100</li>
             </ol>
-            (166) tweilasphemorgue = E100{{#,#,1,2},100,1,2}100<br>
-
-(167) frielasphemorgue = E100{{{#,#,1,2},#,1,2},100,1,2}100<br>
-
-(168) fiorilasphemorgue = E100{{{{#,#,1,2},#,1,2},#,1,2},100,1,2}100<br>
-
-(169) finnasphemorgue = E100{{{{{#,#,1,2},#,1,2},#,1,2},#,1,2},100,1,2}100<br>
-
-(170) sexasphemorgue = E100{{{{{{#,#,1,2},#,1,2},#,1,2},#,1,2},#,1,2},100,1,2}100<br>
-
-(171) sjournalasphemorgue<br> 
-
-= E100{{{{{{{#,#,1,2},#,1,2} ... },#,1,2},100,1,2}100 w/7 copies of ' 1,2 '<br>
-
-(172) attalasphemorgue<br>
-
-= E100{{{{{{{{#,#,1,2},#,1,2} ... },#,1,2},100,1,2}100 w/8 copies of ' 1,2 '<br>
-
-(173) neiulasphemorgue<br>
-
-= E100{{{{{{{{{#,#,1,2},#,1,2} ... },#,1,2},100,1,2}100 w/9 copies of ' 1,2 '<br>
-
-(174) tenasphemorgue<br>
-
-= E100{{{{{{{{{{#,#,1,2},#,1,2} ... },#,1,2},100,1,2}100 w/10 copies of ' 1,2 '<br>
-
-while we're at it we can go as far as...<br>
-
-(175) hundrelasphemorgue <br>
-
-= E100{{{ ... {{{#,#,1,2},#,1,2} ... },#,1,2},100,1,2}100 w/100 copies of ' 1,2 '<br>
-
-then...
-
-(176) grand hundrelasphemorgue<br>
-
-= E100{{{ ... {{{#,#,1,2},#,1,2} ... },#,1,2},100,1,2}100 <br>
-
-w/hundrelasphemorgue copies of ' 1,2 '
+            <ol start="166">
+                <li>tweilasphemorgue = E100&#123;&#123;#,#,1,2&#125;,100,1,2&#125;100</li>
+                <li>frielasphemorgue = E100&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125;,100,1,2&#125;100</li>
+                <li>fiorilasphemorgue = E100&#123;&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125;,#,1,2&#125;,100,1,2&#125;100</li>
+                <li>finnasphemorgue = E100&#123;&#123;&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125;,#,1,2&#125;,#,1,2&#125;,100,1,2&#125;100</li>
+                <li>sexasphemorgue = E100&#123;&#123;&#123;&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125;,#,1,2&#125;,#,1,2&#125;,#,1,2&#125;,100,1,2&#125;100</li>
+                <li>sjournalasphemorgue = E100&#123;&#123;&#123;&#123;&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125; ... &#125;,#,1,2&#125;,100,1,2&#125;100 w/7 copies of ' 1,2 '</li>
+                <li>attalasphemorgue = E100&#123;&#123;&#123;&#123;&#123;&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125; ... &#125;,#,1,2&#125;,100,1,2&#125;100 w/8 copies of ' 1,2 '</li>
+                <li>neiulasphemorgue = E100&#123;&#123;&#123;&#123;&#123;&#123;&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125; ... &#125;,#,1,2&#125;,100,1,2&#125;100 w/9 copies of ' 1,2 '</li>
+                <li>tenasphemorgue = E100&#123;&#123;&#123;&#123;&#123;&#123;&#123;&#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125; ... &#125;,#,1,2&#125;,100,1,2&#125;100 w/10 copies of ' 1,2 '</li>
+                <li>hundrelasphemorgue = E100&#123;&#123;&#123; ... &#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125; ... &#125;,#,1,2&#125;,100,1,2&#125;100 w/100 copies of ' 1,2 '</li>
+                <li>grand hundrelasphemorgue = E100&#123;&#123;&#123; ... &#123;&#123;&#123;#,#,1,2&#125;,#,1,2&#125; ... &#125;,#,1,2&#125;,100,1,2&#125;100 w/hundrelasphemorgue copies of ' 1,2 '</li>
+            </ol>
             <br><br>
             <p>
-                This of coarse leads to the problem of what hyper-ordinal has this as it's fundamental sequence. In keeping with my theory of the climbing method, every time we apply {X,#,1,2} to X we are simply increasing the innermost nested braces by 1. Thus if we nest # times, we get an extra level of nesting. In other words the limit of the above sequence is {#,#+1,1,2}. Thus we have actually made some progress! We can further say...
+                This of coarse leads to the problem of what hyper-ordinal has this as it's fundamental sequence. In keeping with my theory of the climbing method, every time we apply &#123;X,#,1,2&#125; to X we[...]
             </p>
-            (175) hundrelasphemorgue = E100{#,#+1,1,2}100<br>
-            (176) grand hundrelasphemorgue = E100{#,#+1,1,2}100#2<br>
+            <ol start="175">
+                <li>hundrelasphemorgue = E100&#123;#,#+1,1,2&#125;100</li>
+                <li>grand hundrelasphemorgue = E100&#123;#,#+1,1,2&#125;100#2</li>
+            </ol>
             ... !_v nah let's skip boring parts<br>
             <ol start="201">
-                <li>ludicriss = E100{{{ ... {{{#,#+1,1,2},#+1,1,2},#+1,1,2} ... },#+1,1,2},#+1,1,2}100 w/100 applications of ' ,#+1,1,2} ' to #</li>
+                <li>ludicriss = E100&#123;&#123;&#123; ... &#123;&#123;#,#+1,1,2&#125;,#+1,1,2&#125;,#+1,1,2&#125; ... &#125;,#+1,1,2&#125;,#+1,1,2&#125;100 w/100 applications of ' ,#+1,1,2&#125; ' to #</li>
             </ol>
+            New impasse hit. Sbiis saibian is still developing this part of the system,<br>
+            So here I am going to show an analysis of his (daresay), ad hoc continuation.<br><br>
+            <table border="2px solid black">
+                <thead>
+                    <th>Id in sbiis saibian's list</th>
+                    <th>Name</th>
+                    <th>Definition</th>
+                    <th>FGH Ordinal</th>
+                </thead>
+                <tbody>
+                    <tr><td>201</td><td>ludicriss</td><td>&#38;(1)</td><td>&#966;(1,0,0,&omega;<sup>2</sup>)</td></tr>
+                </tbody>
+            </table>
             --- IN PROGRESS ---<br>
         </main>
     </body>
