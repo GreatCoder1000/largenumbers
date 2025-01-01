@@ -1,5 +1,10 @@
 @media (max-width: 768px) {
     .sidebar {
         position: static !important;
+        width: 100%;
+    }
+    .content-sidebar {
+        display: flex;
+        flex-direction: column;
     }
 }
