@@ -1,3 +1,27 @@
+/* Default styles for desktop */
+.sidebar {
+    float: left;
+    width: 25%;
+}
+  
+.content {
+    float: right;
+    width: 75%;
+}
+  
+/* Styles for tablet and mobile */
+@media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      float: none;
+    }
+  
+    .content {
+      width: 100%;
+      float: none;
+    }
+}
+
 @media (max-width: 768px) {
     .sidebar {
         position: static !important;
